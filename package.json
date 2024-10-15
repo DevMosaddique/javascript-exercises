@@ -1,7 +1,7 @@
 {
   "name": "javascript-exercises",
   "version": "1.0.0",
-  "description": "These are a series of javascript exercises intended to be used alongside the curriculum at 'The Odin Project'  They start off nice and easy, but get more involved as you progress through them.",
+  "description": "These are a series of javascript exercises intended to be used alongside the curriculum at 'The Odin Project'. They start off nice and easy, but get more involved as you progress through them.",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -23,8 +23,8 @@
     "plop": "^4.0.1"
   },
   "engines": {
-    "npm": ">=8.5.5",
-    "node": ">=18.0.0"
+    "npm": ">=10.8.2",
+    "node": ">=20.18.0"
   },
   "scripts": {
     "test": "jest",
@@ -34,8 +34,6 @@
     "root": true
   },
   "jest": {
-    "testPathIgnorePatterns": [
-      "generators/"
-    ]
+    "testPathIgnorePatterns": ["generators/"]
   }
 }
